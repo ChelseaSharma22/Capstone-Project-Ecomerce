@@ -9,11 +9,38 @@
 
     <!--- Adding External Links -->
 
+
+<!--- Linking Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 <!---Linking CSS Page-->
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+<link rel="stylesheet" href="CSS/style.css">
+<!--- Linking Favicon (does not work)-->
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
 
+<!-- SLICK CSS  -->
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer"
+/>
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer"
+/>
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer"
+/>
     
 </head>
 
@@ -39,7 +66,38 @@
     </Header>
 
         <main>
+
             <h1>The Weeknd </h1>
+
+            
+            <!--- Div class: container carousel_product mt-5 (Name of Div)-->
+            <div class="container carousel__product mt-5">
+        
+        <!--- Carousel Image 1 -->
+              <div class="carousel__item d-flex justify-content-center">
+                <img class="img-fluid" src="./Image/1.png" srcset="" />
+              </div>
+        
+        <!--- Carousel Image 2 -->
+              <div class="carousel__item d-flex justify-content-center">
+                <img class="img-fluid" src="./Image/2.png" alt="product" srcset="" />
+              </div>
+        
+        <!--- Carousel Image 3 -->
+              <div class="carousel__item d-flex justify-content-center">
+                <img class="img-fluid" src="https://media.pitchfork.com/photos/5ac234a8ad9bce569e0acf13/1:1/w_450%2Cc_limit/My%2520Dear%2520Melancholy%2C.jpg" alt="product" srcset="" />
+              </div>
+        
+        <!--- Carousel Image 4 -->
+              <div class="carousel__item d-flex justify-content-center">
+                <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/en/9/96/The_Weeknd_-_Trilogy.png" alt="product" srcset="" />
+              </div>
+        
+        <!--- Carousel Image 5 -->
+              <div class="carousel__item d-flex justify-content-center">
+                <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/en/c/c1/The_Weeknd_-_After_Hours.png" alt="product" srcset="" />
+              </div>
+            </div>
 
  <!--- Streaming Services Links -->
  <div id="links">
@@ -52,5 +110,59 @@
         <section>
 
  </section>
+
+ <script
+ src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+ integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+ crossorigin="anonymous"
+></script>
+
+<!-- JS  -->
+<script
+ src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+ integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+ crossorigin="anonymous"
+ referrerpolicy="no-referrer"
+></script>
+
+<!-- SLICK JS  -->
+<script
+ src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+ integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+ crossorigin="anonymous"
+ referrerpolicy="no-referrer"
+></script>
+<script>
+ $(".carousel__product").slick({
+   centerMode: true,
+   centerPadding: "180px",
+   slidesToShow: 1,
+   dots: true,
+   autoplay: true,
+   responsive: [
+     {
+       breakpoint: 768,
+       settings: {
+         arrows: false,
+         centerMode: true,
+         centerPadding: "80px",
+         slidesToShow: 1,
+       },
+     },
+     {
+       breakpoint: 480,
+       settings: {
+         arrows: false,
+         centerMode: true,
+         centerPadding: "60px",
+         slidesToShow: 1,
+       },
+     },
+   ],
+ });
+</script>
+
+ <!--- Bootstrap end tag -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
