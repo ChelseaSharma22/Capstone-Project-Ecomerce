@@ -16,7 +16,7 @@ h1 {
 
 
 /* style manipulation to links*/
-#links{
+#links1{
     color: rgb(255, 255, 255);
     text-align:center;
     font-size: 20px;
@@ -181,6 +181,9 @@ form {
     height: 20px;
   }
 
+
+
+
   /* STYLING THE REGISTRATION PAGE*/
   /* The container */
   .container2 {
@@ -196,7 +199,6 @@ form {
     -ms-user-select: none;
     user-select: none;
     color: white;
-  
   }
 
   /* Hide the browser's default radio button */
@@ -287,16 +289,24 @@ form {
     background-color: #aa0404;
   }
 
-  /* Styling the HOME page */
+
+
+  /* Styling the HOME page XO Image*/
   .xo1{
     justify-content: center;
     text-align: center;
     margin-top: -15px;
   }
 
+
+
+
   /* Styling CHECK OUT Page*/
+  /* Check out page title*/
   h5{
-    color: #364beb;
+    color: #ffffff;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
   body{
@@ -385,18 +395,32 @@ a {
 }
 
 hr {
-  border: 1px solid lightgrey;
+  border: 1px solid rgb(0, 0, 0);
 }
 
 span.price {
   float: right;
   color: grey;
 }
-
+/*payment title*/
 h6{
   color: white;
 }
 
+/* Cart Title*/
+h7{
+color: #000000;
+}
+label{
+  color: white;
+}
+p1{ 
+  color:#000000
+}
+
+b{
+  color: #000000;
+}
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
 @media (max-width: 800px) {
   .row {
@@ -441,8 +465,8 @@ h6{
   padding: 0 16px;
 }
 
-.container {
-  background-color: #f2f2f2;
+.container3 {
+  background-color: #ffffff;
   padding: 5px 20px 15px 20px;
   border: 1px solid lightgrey;
   border-radius: 3px;
@@ -479,12 +503,13 @@ label {
   font-size: 17px;
 }
 
+/* Check Out Button*/
 .btn:hover {
   background-color: #ffffff;
 }
 
 a {
-  color: #2196F3;
+  color: #aa0404;
 }
 
 hr {
@@ -493,7 +518,7 @@ hr {
 
 span.price {
   float: right;
-  color: grey;
+  color: rgb(0, 0, 0);
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
@@ -504,4 +529,13 @@ span.price {
   .col-25 {
     margin-bottom: 20px;
   }
+}
+
+/* STYLING THE PRODUCTS PAGE*/
+h8{
+  color: #000000;
+}
+
+P3{
+  color: #000000;
 }
