@@ -37,6 +37,9 @@ a{
     font-size: 20px;
 }
 
+
+
+
 /* STYLING THE REGISTRATION PAGE */
 {box-sizing: border-box}
 
@@ -123,7 +126,7 @@ form {
   /* Set a style for all buttons */
   button {
     background-color: #04AA6D;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -151,7 +154,7 @@ form {
   
   /* Avatar image */
   img.avatar {
-    width: 40%;
+    width: 10%;
     border-radius: 50%;
   }
   
@@ -159,7 +162,16 @@ form {
   .container1 {
     padding: 16px;
   }
+
+  /*Text styling to b6 TAG*/
+  b6{
+    color:#ffffff
+  }
   
+  /*Text Styling to b7 TAG*/
+  b7{
+    color:#ffffff
+  }
   /* The "Forgot password" text */
   span.psw {
     float: right;
